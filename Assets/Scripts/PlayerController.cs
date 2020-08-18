@@ -11,6 +11,7 @@ public class PlayerController : MonoBehaviour{
     public Transform groundPoint;
     public LayerMask groundLayer;
     public GameObject deathEffect;
+    public Transform effectPosition;
 
     // Start is called before the first frame update
 
@@ -34,7 +35,7 @@ public class PlayerController : MonoBehaviour{
     public void GameOver()
     {
         //Instantiate a particle system as the death affect
-        Instantiate(deathEffect, transform.position, Quaternion.identity);
+        Instantiate(deathEffect, effectPosition.position, Quaternion.identity);
         Destroy(gameObject);
     }
 }

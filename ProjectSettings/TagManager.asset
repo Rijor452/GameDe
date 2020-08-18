@@ -41,6 +41,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: GameOver
+    uniqueID: 3585602045
+    locked: 0
   - name: Tiles
     uniqueID: 807036231
     locked: 0
