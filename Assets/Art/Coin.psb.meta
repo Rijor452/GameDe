@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1a3f9823ce7c1d34d93e032301bf4d7a
+guid: 634924ee7be91f84c91e11ea05314688
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -87,18 +87,18 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
-  - name: '  Restart '
+  - name: Coin
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 1039
-      y: 4
-      width: 760
+      x: 4
+      y: 604
+      width: 483
       height: 189
-    spriteID: 1d5b64ce9171699409663e540bdd4721
+    spriteID: 4af32641394d97a46bdde9582eb85bb7
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -108,8 +108,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 307, y: -571}
-  - name: Rectangle 1
+    uvTransform: {x: -761, y: 121}
+  - name: Ellipse 1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -118,9 +118,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 1027
-      height: 392
-    spriteID: 6d901e904d24c664fbdd3f05308345fd
+      width: 592
+      height: 592
+    spriteID: 43881a4116f0fe84a84305ae7b6f3e15
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -130,38 +130,38 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -602, y: -466}
+    uvTransform: {x: -730, y: -249}
   platformSettings: []
   mosaicLayers: 1
   documentPivot: {x: 0, y: 0}
   documentAlignment: 7
   importHiddenLayers: 0
-  importedTextureWidth: 2048
-  importedTextureHeight: 2048
+  importedTextureWidth: 1024
+  importedTextureHeight: 1024
   documentSize: {x: 1890, y: 1417}
   paperDollMode: 0
   keepDupilcateSpriteName: 0
   spriteCategoryList:
     categories: []
-  textureActualWidth: 2048
-  textureActualHeight: 2048
+  textureActualWidth: 1024
+  textureActualHeight: 1024
   spritePackingTag: 
   resliceFromLayer: 0
   characterMode: 1
   mosaicPSDLayers: []
   rigPSDLayers:
-  - name: '  Restart '
-    spriteName: '  Restart '
+  - name: Coin
+    spriteName: Coin
     isGroup: 0
     parentIndex: -1
-    spriteID: 1d5b64ce9171699409663e540bdd4721
+    spriteID: 4af32641394d97a46bdde9582eb85bb7
     layerID: 3
-    mosaicPosition: {x: 1039, y: 4}
-  - name: Rectangle 1
-    spriteName: Rectangle 1
+    mosaicPosition: {x: 4, y: 604}
+  - name: Ellipse 1
+    spriteName: Ellipse 1
     isGroup: 0
     parentIndex: -1
-    spriteID: 6d901e904d24c664fbdd3f05308345fd
+    spriteID: 43881a4116f0fe84a84305ae7b6f3e15
     layerID: 2
     mosaicPosition: {x: 4, y: 4}
   characterData:
@@ -170,7 +170,7 @@ ScriptedImporter:
     dimension: {x: 0, y: 0}
     characterGroups: []
   generateGOHierarchy: 0
-  textureAssetName: Restart button Texture
-  prefabAssetName: Restart button Prefab
-  spriteLibAssetName: Restart button Sprite Lib
+  textureAssetName: Coin Texture
+  prefabAssetName: Coin Prefab
+  spriteLibAssetName: Coin Sprite Lib
   secondarySpriteTextures: []

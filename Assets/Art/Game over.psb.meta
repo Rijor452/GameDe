@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1a3f9823ce7c1d34d93e032301bf4d7a
+guid: 88423a612c979574c9b283eb8ed25c2e
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -87,18 +87,18 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
-  - name: '  Restart '
+  - name: Game Over
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 1039
-      y: 4
-      width: 760
-      height: 189
-    spriteID: 1d5b64ce9171699409663e540bdd4721
+      x: 4
+      y: 379
+      width: 1148
+      height: 175
+    spriteID: 52ff9a327fbf83e4585a268bba1362b5
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -108,7 +108,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 307, y: -571}
+    uvTransform: {x: -419, y: -149}
   - name: Rectangle 1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -118,9 +118,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 1027
-      height: 392
-    spriteID: 6d901e904d24c664fbdd3f05308345fd
+      width: 1283
+      height: 367
+    spriteID: 5dd576c34d3346e41ad392d8dadee799
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -130,38 +130,38 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -602, y: -466}
+    uvTransform: {x: -376, y: -401}
   platformSettings: []
   mosaicLayers: 1
   documentPivot: {x: 0, y: 0}
   documentAlignment: 7
   importHiddenLayers: 0
   importedTextureWidth: 2048
-  importedTextureHeight: 2048
+  importedTextureHeight: 1024
   documentSize: {x: 1890, y: 1417}
   paperDollMode: 0
   keepDupilcateSpriteName: 0
   spriteCategoryList:
     categories: []
   textureActualWidth: 2048
-  textureActualHeight: 2048
+  textureActualHeight: 1024
   spritePackingTag: 
   resliceFromLayer: 0
   characterMode: 1
   mosaicPSDLayers: []
   rigPSDLayers:
-  - name: '  Restart '
-    spriteName: '  Restart '
+  - name: Game Over
+    spriteName: Game Over
     isGroup: 0
     parentIndex: -1
-    spriteID: 1d5b64ce9171699409663e540bdd4721
+    spriteID: 52ff9a327fbf83e4585a268bba1362b5
     layerID: 3
-    mosaicPosition: {x: 1039, y: 4}
+    mosaicPosition: {x: 4, y: 379}
   - name: Rectangle 1
     spriteName: Rectangle 1
     isGroup: 0
     parentIndex: -1
-    spriteID: 6d901e904d24c664fbdd3f05308345fd
+    spriteID: 5dd576c34d3346e41ad392d8dadee799
     layerID: 2
     mosaicPosition: {x: 4, y: 4}
   characterData:
@@ -170,7 +170,7 @@ ScriptedImporter:
     dimension: {x: 0, y: 0}
     characterGroups: []
   generateGOHierarchy: 0
-  textureAssetName: Restart button Texture
-  prefabAssetName: Restart button Prefab
-  spriteLibAssetName: Restart button Sprite Lib
+  textureAssetName: Game over Texture
+  prefabAssetName: Game over Prefab
+  spriteLibAssetName: Game over Sprite Lib
   secondarySpriteTextures: []
