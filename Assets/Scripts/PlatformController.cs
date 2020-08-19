@@ -36,6 +36,8 @@ public class PlatformController : MonoBehaviour
             {
                 Destroy(spawnedCoin);
             }
+            Destroy(spawnedHazard);
+
             startPosition = spawnPositions[Random.Range(0, spawnPositions.Length)];
             transform.position = startPosition.position;
 
@@ -51,7 +53,7 @@ public class PlatformController : MonoBehaviour
                     break;
             }
             int staticHazard = Random.Range(0, 3);
-            int chances = Random.Range(0, 3);
+            int chances = Random.Range(0, 2);
 
             if(chances > 0)
             {
