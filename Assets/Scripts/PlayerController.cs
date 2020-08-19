@@ -3,15 +3,21 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour{
-    public Animator anim;
-    public Rigidbody2D rb;
+    Animator anim;
+    Rigidbody2D rb;
 
     public int jumpForce;
-    public bool grounded;
+
+     bool grounded;
+
     public Transform groundPoint;
+
     public LayerMask groundLayer;
+
     public GameObject deathEffect;
+
     public Transform effectPosition;
+
     public GameObject gameOver;
 
     // Start is called before the first frame update
@@ -21,7 +27,8 @@ public class PlayerController : MonoBehaviour{
         grounded = Physics2D.OverlapPoint(groundPoint.position,groundLayer);
     }
     void Start(){
-     
+        anim = GetComponent<Animator>();
+        rb = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
@@ -36,6 +43,7 @@ public class PlayerController : MonoBehaviour{
     public void GameOver()
     {
         //Instantiate a particle system as the death affect
+        GameManager.instance.cam.followPlayer = false;
         Instantiate(deathEffect, effectPosition.position, Quaternion.identity);
         gameOver.SetActive(true);
         Destroy(gameObject);

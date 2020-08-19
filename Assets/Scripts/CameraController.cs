@@ -5,7 +5,8 @@ using UnityEngine;
 public class CameraController : MonoBehaviour
 {
 
-    public PlayerController player;
+    
+
     public bool followPlayer = true;
     // Start is called before the first frame update
     void Start()
@@ -18,7 +19,7 @@ public class CameraController : MonoBehaviour
     {
         if (followPlayer)
         {
-            transform.position = new Vector3(transform.position.x, player.transform.position.y, transform.position.z);
+            transform.position = new Vector3(transform.position.x, GameManager.instance.player.transform.position.y, transform.position.z);
         }
     }
 }
