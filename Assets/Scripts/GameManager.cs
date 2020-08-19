@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour
     public Transform[] spawnPositions;
     public Transform endPosition;
 
+    [Header("Background Variables")]
     [Tooltip("End position of the background tiles")]
     public Transform endPosBG;
 
@@ -20,7 +21,7 @@ public class GameManager : MonoBehaviour
     public Text score;
     [HideInInspector]
     public CameraController cam;
-
+    public GameObject gameOver;
     public PlayerController player;
     // Start is called before the first frame update
     void Start()

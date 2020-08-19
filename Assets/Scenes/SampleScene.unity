@@ -434,6 +434,7 @@ MonoBehaviour:
   endPosBG: {fileID: 701103619}
   score: {fileID: 1922350423}
   cam: {fileID: 0}
+  gameOver: {fileID: 1826267371}
   player: {fileID: 1618745553}
 --- !u!4 &484645547
 Transform:
@@ -2374,7 +2375,6 @@ MonoBehaviour:
   deathEffect: {fileID: 5550985963378037579, guid: 557097922feba7140ad64cd23760e77e,
     type: 3}
   effectPosition: {fileID: 95607649}
-  gameOver: {fileID: 1826267371}
 --- !u!50 &1618745554
 Rigidbody2D:
   serializedVersion: 4
