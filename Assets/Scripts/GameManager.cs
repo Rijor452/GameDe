@@ -10,7 +10,7 @@ public class GameManager : MonoBehaviour
 
     public Transform[] spawnPositions;
     public Transform endPosition;
-
+    public Transform endFire;
     [Header("Background Variables")]
     [Tooltip("End position of the background tiles")]
     public Transform endPosBG;
